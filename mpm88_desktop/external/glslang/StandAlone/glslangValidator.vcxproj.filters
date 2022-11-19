@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\StandAlone.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\DirStackFileIncluder.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\repository\taichi-aot-demo\mpm88_desktop\include\glslang\glsl_intrinsic_header.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\mpm88_desktop\CMakeFiles\334a91662d656ad658d4b882126d7b93\glsl_intrinsic_header.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B6BF05E4-2312-34BA-96A1-1C6DFE240468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{D52B49A9-25B0-3B52-93BF-BBB9A22F7A57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

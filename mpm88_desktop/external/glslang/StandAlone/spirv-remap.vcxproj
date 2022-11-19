@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{172AFDDE-2353-396B-B82C-E61B33FD9A7F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>spirv-remap</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spirv-remap.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">spirv-remap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spirv-remap.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">spirv-remap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spirv-remap.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">spirv-remap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spirv-remap.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">spirv-remap</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glslang\Debug\glslangd.lib;..\SPIRV\Debug\SPIRVd.lib;Debug\glslang-default-resource-limitsd.lib;..\SPIRV\Debug\SPVRemapperd.lib;psapi.lib;..\glslang\Debug\MachineIndependentd.lib;..\OGLCompilersDLL\Debug\OGLCompilerd.lib;..\glslang\OSDependent\Windows\Debug\OSDependentd.lib;..\glslang\Debug\GenericCodeGend.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/Debug/spirv-remap.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/Debug/spirv-remap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glslang\Release\glslang.lib;..\SPIRV\Release\SPIRV.lib;Release\glslang-default-resource-limits.lib;..\SPIRV\Release\SPVRemapper.lib;psapi.lib;..\glslang\Release\MachineIndependent.lib;..\OGLCompilersDLL\Release\OGLCompiler.lib;..\glslang\OSDependent\Windows\Release\OSDependent.lib;..\glslang\Release\GenericCodeGen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/Release/spirv-remap.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/Release/spirv-remap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glslang\MinSizeRel\glslang.lib;..\SPIRV\MinSizeRel\SPIRV.lib;MinSizeRel\glslang-default-resource-limits.lib;..\SPIRV\MinSizeRel\SPVRemapper.lib;psapi.lib;..\glslang\MinSizeRel\MachineIndependent.lib;..\OGLCompilersDLL\MinSizeRel\OGLCompiler.lib;..\glslang\OSDependent\Windows\MinSizeRel\OSDependent.lib;..\glslang\MinSizeRel\GenericCodeGen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/MinSizeRel/spirv-remap.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/MinSizeRel/spirv-remap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_HAS_EXCEPTIONS=0;ENABLE_HLSL;GLSLANG_OSINCLUDE_WIN32;ENABLE_OPT=0;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\repository\taichi-aot-demo\external\glslang\glslang\..;E:\repository\taichi-aot-demo\mpm88_desktop\include;E:\repository\taichi-aot-demo\external\glslang\SPIRV\..;E:\repository\taichi-aot-demo\external\glslang\StandAlone;E:\repository\taichi-aot-demo\external\glslang;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\glslang\RelWithDebInfo\glslang.lib;..\SPIRV\RelWithDebInfo\SPIRV.lib;RelWithDebInfo\glslang-default-resource-limits.lib;..\SPIRV\RelWithDebInfo\SPVRemapper.lib;psapi.lib;..\glslang\RelWithDebInfo\MachineIndependent.lib;..\OGLCompilersDLL\RelWithDebInfo\OGLCompiler.lib;..\glslang\OSDependent\Windows\RelWithDebInfo\OSDependent.lib;..\glslang\RelWithDebInfo\GenericCodeGen.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/RelWithDebInfo/spirv-remap.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/RelWithDebInfo/spirv-remap.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/repository/taichi-aot-demo/external/glslang/StandAlone/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/repository/taichi-aot-demo -BE:/repository/taichi-aot-demo/mpm88_desktop --check-stamp-file E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\Cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPythonInterp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/repository/taichi-aot-demo/external/glslang/StandAlone/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/repository/taichi-aot-demo -BE:/repository/taichi-aot-demo/mpm88_desktop --check-stamp-file E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\Cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPythonInterp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/repository/taichi-aot-demo/external/glslang/StandAlone/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/repository/taichi-aot-demo -BE:/repository/taichi-aot-demo/mpm88_desktop --check-stamp-file E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\Cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPythonInterp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/repository/taichi-aot-demo/external/glslang/StandAlone/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\Cmake\bin\cmake.exe -SE:/repository/taichi-aot-demo -BE:/repository/taichi-aot-demo/mpm88_desktop --check-stamp-file E:/repository/taichi-aot-demo/mpm88_desktop/external/glslang/StandAlone/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\Cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;E:\Cmake\share\cmake-3.23\Modules\FindPythonInterp.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\spirv-remap.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\ZERO_CHECK.vcxproj">
+      <Project>{86DC01F4-2476-3C9F-9486-AED9C479F7EE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\glslang\GenericCodeGen.vcxproj">
+      <Project>{7DB9D63C-1EAB-316C-8CDE-2896D932F4FF}</Project>
+      <Name>GenericCodeGen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\glslang\MachineIndependent.vcxproj">
+      <Project>{D325634E-FA78-3844-A176-C20120F339C4}</Project>
+      <Name>MachineIndependent</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\OGLCompilersDLL\OGLCompiler.vcxproj">
+      <Project>{04FA6501-2064-3AA9-9C5B-A46B6ED7DDCE}</Project>
+      <Name>OGLCompiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\glslang\OSDependent\Windows\OSDependent.vcxproj">
+      <Project>{54B85129-40D2-39BD-AAC6-3FAA342FBCD3}</Project>
+      <Name>OSDependent</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\SPIRV\SPIRV.vcxproj">
+      <Project>{86395609-2B2C-36EE-BB41-9B2459D8473D}</Project>
+      <Name>SPIRV</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\SPIRV\SPVRemapper.vcxproj">
+      <Project>{8AC09CDA-5152-37E4-86ED-585876B7FB21}</Project>
+      <Name>SPVRemapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\glslang\glslang.vcxproj">
+      <Project>{EDEFE3E8-97BF-3F62-B765-8CBA95079859}</Project>
+      <Name>glslang</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\StandAlone\glslang-default-resource-limits.vcxproj">
+      <Project>{BA6174BE-1275-34EC-9D23-AC2E163665DD}</Project>
+      <Name>glslang-default-resource-limits</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\ResourceLimits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\resource_limits_c.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\external\glslang\StandAlone\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CB0AED63-9E68-31AD-A51A-275D3A16DAF3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\mpm88_desktop\CMakeFiles\bdfa04718f5027811334f91f8d2161d6\Experimental.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\external\glslang\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\repository\taichi-aot-demo\mpm88_desktop\external\glslang\CMakeFiles\Experimental" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B6BF05E4-2312-34BA-96A1-1C6DFE240468}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

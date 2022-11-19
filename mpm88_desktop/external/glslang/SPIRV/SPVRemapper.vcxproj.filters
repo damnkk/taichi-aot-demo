@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\SPIRV\SPVRemapper.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\repository\taichi-aot-demo\external\glslang\SPIRV\doc.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\repository\taichi-aot-demo\external\glslang\SPIRV\SPVRemapper.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\repository\taichi-aot-demo\external\glslang\SPIRV\doc.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\external\glslang\SPIRV\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{D52B49A9-25B0-3B52-93BF-BBB9A22F7A57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+E:/Cmake/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+E:/Cmake/share/cmake-3.23/Modules/CMakeDependentOption.cmake
+E:/Cmake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+E:/Cmake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+E:/Cmake/share/cmake-3.23/Modules/CheckIncludeFile.c.in
+E:/Cmake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+E:/Cmake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindDoxygen.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindThreads.cmake
+E:/Cmake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+E:/Cmake/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+E:/Cmake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+E:/repository/taichi-aot-demo/external/glfw/CMake/cmake_uninstall.cmake.in
+E:/repository/taichi-aot-demo/external/glfw/CMake/glfw3Config.cmake.in
+E:/repository/taichi-aot-demo/external/glfw/CMakeLists.txt

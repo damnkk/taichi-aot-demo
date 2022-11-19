@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\repository\taichi-aot-demo\implicit_fem\desktop\CMakeFiles\516cc82172bb3624d21c217f6b5fe280\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0EF1F7F-E15B-3B54-A6BB-131CF18F0EF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

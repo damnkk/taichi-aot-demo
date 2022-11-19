@@ -1,0 +1,3 @@
+# CMake generation dependency list for this directory.
+E:/repository/taichi-aot-demo/external/glfw/CMake/glfw3.pc.in
+E:/repository/taichi-aot-demo/external/glfw/src/CMakeLists.txt

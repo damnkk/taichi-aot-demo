@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+E:/Cmake/share/cmake-3.23/Modules/FindDoxygen.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+E:/Cmake/share/cmake-3.23/Modules/FindVulkan.cmake
+E:/repository/taichi-aot-demo/external/VulkanMemoryAllocator/CMakeLists.txt
